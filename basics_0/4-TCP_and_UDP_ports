@@ -2,3 +2,4 @@
 # Display listening TCP and UDP sockets with PID and program name
 
 netstat -lntup
+netstat -lx
