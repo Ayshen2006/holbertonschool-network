@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display all active IPv4 addresses on the machine
+
+tr -d '\r' < 1-show_attached_IPs > temp
+mv temp 1-show_attached_IPs
